@@ -1,5 +1,5 @@
 ARG REGISTRY_NAME
-FROM osfsbithuatacr/acrbaseimage:latest
+FROM osfsbithuatacr.azurecr.io/acrbaseimage:latest
 
 USER root
 RUN apt-get update && apt-get install -y
