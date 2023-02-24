@@ -12,7 +12,7 @@ list_entities = []
 second_list = []
 def tables_in_account():
         # Instantiate the TableServiceClient from a connection string
-        connstr = "DefaultEndpointsProtocol=https;AccountName=opysparkstg;AccountKey=dK+2czDbJPwWx6LzXa4+3t62kz6aW9xQX5dRey5M+htdcKISkMBvG7Pq+Ls5OkJiSGXpyo9txXMe+ASttGZo1Q==;EndpointSuffix=core.windows.net"
+        connstr = "DefaultEndpointsProtocol=https;AccountName=opysparkstg;AccountKey=9KitYFIg2ZYVpLeotX5F0aBLS882MC4RSouxpGZnGAkTNA6dLbKGJgHDFfjlTIM10TB15cs5O6Ce+AStohVXrQ==;EndpointSuffix=core.windows.net"
         # connstr = os.getenv('CONNECTION_STRING')
         with TableServiceClient.from_connection_string(conn_str=connstr) as table_service:
             list_tables = table_service.list_tables()
