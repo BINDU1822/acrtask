@@ -1,5 +1,5 @@
 from flask import Flask,render_template
-from templates.track import list_entities,second_list
+from track import list_entities,second_list
 # from collections import defaultdict
 from datetime import datetime
 
